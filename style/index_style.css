@@ -8,7 +8,6 @@ body{
     display: flex;
     width: 100%;
     height: 100px;
-    background-color: aqua;
     justify-content: space-between;
 }
 
@@ -24,4 +23,112 @@ body{
 .navigate_bar img{
     width: 20px;
     height: 20px;
+}
+
+/* fotter */
+
+footer{
+    display: flexbox;
+    width: 100%;
+    height: 600px;
+    background-color: #252525;
+    font-family: "segoe ui";
+    padding-top: 1px;
+}
+.footer-info{
+    display: flex;
+    width: 53%;
+    height: 60px;
+    margin-top: 50px;
+    margin-right: 470px;
+    margin-left: 470px;
+    justify-content: space-between;
+}
+.info-div{
+    display: flex;
+    height: 30px;
+    color: aliceblue;
+}
+
+.locaciya-klada{
+    width: 23px;
+    height: 23px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+.mobilka-zvonilka{
+    width: 13px;
+    height: 26px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+.konvert-s-shekeliami{
+    width: 21px;
+    height: 16px;
+    margin-top: 19px;
+    margin-right: 10px;
+}
+.h3-footer{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+form{
+    width: 510px;
+    height: 40px;
+    display: block;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+input{
+    width: 510px;
+    height: 40px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+label{
+    color: #595858;
+}
+.subscribe-button{
+    background-color: #F4271E;
+    width: 195px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.follow-button{
+    width: 195px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon-container{
+    width: 186px;
+    height: 38px;
+    margin: auto;
+    margin-top: 20px;
+}
+.icon-container img{
+    margin-left: 12px;
+}
+.boss-footer{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    background-color: aliceblue;
+    margin-top: 53px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #595858;
 }
