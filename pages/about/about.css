@@ -1,26 +1,30 @@
+body{
+    margin: 0%;
+}
+
 .page {
     height: 690px;
-    width: 1920px;
+    width: 100%;
     background-color: #167F9F;
-    margin: auto;
     color: white;
     overflow: hidden;
     position: relative
+   
 }
 
 .brush {
-    margin-left: 1110px;
+    margin-left: 50%;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 
 .box {
     width: 650px;
     height: 96px;
-    margin-left: 396px;
+    margin-left: 13%;
     padding-top: 190px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
