@@ -101,6 +101,7 @@ label{
     margin: auto;
     margin-top: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
 }
 .follow-button{
     width: 195px;
@@ -111,6 +112,7 @@ label{
     margin: auto;
     margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
 }
 .icon-container{
     width: 186px;
