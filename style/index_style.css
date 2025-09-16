@@ -2,6 +2,8 @@ body{
     display: block;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 
@@ -9,7 +11,7 @@ body{
 .navigate_bar{
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 5rem;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
@@ -22,13 +24,13 @@ body{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-left: 100px;
-    margin-right: 300px;
+    margin-left: 1rem;
+    margin-right: 22.5rem;
 }
 
 .information_bar div{
     margin: 0;
-    margin-top: 30px;
+    margin-top: 1.95rem;
 }
 
 .information_bar1, .information_bar2{
@@ -38,29 +40,31 @@ body{
 .phone, .mail{
     width: 20px;
     height: 20px;
-    margin-right: 10px;
+    padding-right: 4px;
+    padding-top: 1.5px;
 }
 
 .phone{
-    width: 15px;
+    width: 13px;
     height: 17px;
 }
 
 .mail{
-    width: 20px;
+    width: 22px;
     height: 15px;
 }
 
 .navigate_bar h1{
-    margin-top: 30px;
+    margin-top: 1.3rem;
     margin-left: 30px;
 }
 
 .burger_menu{
-    margin-top: 30px;
+    margin-top: 1.95rem;
     margin-right: 30px;
-    width: 25px;
+    width: 40px;
     height: 25px;
+    cursor: pointer;
 }
 
 .text_nav{
@@ -68,7 +72,140 @@ body{
 }
 
 .span_nav{
-    color: aqua;
+    color: #337F9E;
     font-weight: bold;
 }
 /* NAVIGATOR END END END END */
+
+/* page */
+
+
+.main_your_home{
+    display: flex;
+    background-color: #E4E5E7;
+    width: 100%;
+    height: 50rem;
+}
+
+.your_home_left{
+    display: block;
+    font-size: 1.3rem;
+    width: 50rem;
+    padding-left: 15rem;
+    padding-top: 5rem;
+}
+
+.p_home{
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 39rem;
+    margin-bottom: 4rem;
+    font-weight: 500;
+}
+
+.h1_home{
+    font-size: 3.6rem;
+    margin-bottom: 0;
+    color: #292929;
+}
+
+.h2_home{
+    font-size: 5.55rem;
+    margin-top: 0;
+    color: #345578;
+    margin-bottom: 0;
+}
+
+.btn_red_blue{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn_red, .btn_blue{
+    display: flex;
+    width: 15rem;
+    height: 4rem;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 500;
+}
+
+.btn_red p{
+    margin: auto;
+    color: white;
+}
+
+.btn_blue p{
+    margin: auto;
+    color: white;
+}
+
+.btn_red{
+    background-color: #F4271E;
+}
+
+.btn_blue{
+    background-color: #337F9E;
+}
+
+.moliar{
+    display: flex;
+    margin-left: 10rem;
+}
+
+.btns_tuda_siuda{
+    display: flex;
+    box-shadow: 0px 0px 1000px;
+    width: 10rem;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+    top: -40px;
+}
+
+.red_btn_str, .blue_btn_str{
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.blue_btn_str{
+    background-color: #337F9E;
+}
+
+.red_btn_str{
+    background-color: white;
+}
+
+/* what we do */
+
+.article{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.whatwe{
+    display: flex;
+    margin: auto;
+    font-size: 4rem;
+    text-align: center;
+    width: 30rem;
+    margin-top: 5rem;
+}
+
+.home_card{
+    margin: 0;
+}
+
+.card_tr p{
+    font-size: 2rem;
+}
+
+.card_1{
+    background-color: #595e60;
+    width: 25rem;
+    height: 35rem;
+}
