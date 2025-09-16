@@ -209,7 +209,7 @@ label{
     display: block;
     font-size: 1.3rem;
     width: 50rem;
-    padding-left: 15rem;
+    padding-left: 10%;
     padding-top: 5rem;
 }
 
@@ -314,17 +314,57 @@ label{
     margin-top: 5rem;
 }
 
+.whatwedo{
+    display: flex;
+    justify-content: space-between;
+    width: 80rem;
+    margin: auto;
+    gap: 250px;
+    margin-top: 4rem;
+}
+
 .home_card{
     margin: 0;
 }
 
-.card_tr p{
+.home_asd{
     font-size: 2rem;
+    color: #337F9E;
+    font-weight: bold;
+    width: 100%;
+}
+
+.main_tekst{
+    font-size: 1.1rem;
+    height: 10rem;
+    width: 15rem;
 }
 
 .card_1{
-    background-color: #595e60;
     width: 25rem;
     height: 35rem;
 }
 
+.card_2{
+    width: 25rem;
+    height: 35rem;
+}
+
+.card_3{
+    width: 25rem;
+    height: 35rem;
+}
+
+.readmore_btn{
+    color: #337F9E;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hotel{
+    height: 67px;
+}
+
+.dsa{
+    color: black;
+}
