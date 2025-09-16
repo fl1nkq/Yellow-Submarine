@@ -19,6 +19,7 @@ body{
 
 .navigate_bar h1{
     font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .information_bar{
@@ -27,6 +28,9 @@ body{
     width: 100%;
     margin-left: 1rem;
     margin-right: 22.5rem;
+    margin-left: 100px;
+    margin-right: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .information_bar div{
@@ -151,7 +155,6 @@ label{
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #595858;
-}
     padding-right: 4px;
     padding-top: 1.5px;
 }
@@ -159,11 +162,13 @@ label{
 .phone{
     width: 13px;
     height: 17px;
+    padding-top: 3px;
 }
 
 .mail{
     width: 22px;
     height: 15px;
+    padding-top: 4px;
 }
 
 .navigate_bar h1{
@@ -185,6 +190,7 @@ label{
 
 .span_nav{
     color: #337F9E;
+    color: #1780a0;
     font-weight: bold;
 }
 /* NAVIGATOR END END END END */
