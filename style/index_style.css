@@ -19,6 +19,11 @@ body{
     justify-content: space-between;
 }
 
+#a1{
+    text-decoration: none;
+    color: #000000;
+}
+
 .navigate_bar h1{
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
