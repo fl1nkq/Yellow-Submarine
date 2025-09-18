@@ -32,4 +32,43 @@ baton2.addEventListener("click", function(){
     main_home1.style.left = "-2000px";
 })
 
+let btn_stroke1 = document.getElementById("btn_stroke1");
+let btn_stroke2 = document.getElementById("btn_stroke2");
 
+baton1.addEventListener("mouseenter", function(){
+    btn_stroke1.style.stroke = "#000000";
+    btn_stroke2.style.stroke = "#ffffff";
+
+    baton1.style.backgroundColor = "#ffffff";
+    baton2.style.backgroundColor = "#337F9E";
+})
+
+baton1.addEventListener("mouseleave", function(){
+    btn_stroke1.style.stroke = "#ffffff";
+    btn_stroke2.style.stroke = "#ffffff";
+
+    baton1.style.backgroundColor = "#337F9E";
+    baton2.style.backgroundColor = "#337F9E";
+})
+
+baton2.addEventListener("mouseenter", function(){
+    btn_stroke1.style.stroke = "#ffffff";
+    btn_stroke2.style.stroke = "#000000";
+
+    baton1.style.backgroundColor = "#337F9E";
+    baton2.style.backgroundColor = "#ffffff";
+})
+
+baton2.addEventListener("mouseleave", function(){
+    btn_stroke1.style.stroke = "#ffffff";
+    btn_stroke2.style.stroke = "#ffffff";
+
+    baton1.style.backgroundColor = "#337F9E";
+    baton2.style.backgroundColor = "#337F9E";
+})
+
+// dsadadsasdadsadsadsasda
+
+let svg_1 = document.getElementById("svg_1");
+let svg_2 = document.getElementById("svg_2");
+let svg_3 = document.getElementById("svg_3");
