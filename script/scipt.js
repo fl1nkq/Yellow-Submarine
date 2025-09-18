@@ -19,6 +19,19 @@ gray.addEventListener("click", function(){
 let baton1 = document.getElementById("baton1");
 let baton2 = document.getElementById("baton2");
 
+let main_home = document.getElementById("main_home")
+let main_home1 = document.getElementById("main_home1")
+
+baton1.addEventListener("click", function(){
+    main_home.style.right = "-2000px";
+    main_home1.style.left = "0px";
+})
+
+baton2.addEventListener("click", function(){
+    main_home.style.right = "0px";
+    main_home1.style.left = "-2000px";
+})
+
 let btn_stroke1 = document.getElementById("btn_stroke1");
 let btn_stroke2 = document.getElementById("btn_stroke2");
 
@@ -59,4 +72,3 @@ baton2.addEventListener("mouseleave", function(){
 let svg_1 = document.getElementById("svg_1");
 let svg_2 = document.getElementById("svg_2");
 let svg_3 = document.getElementById("svg_3");
-
