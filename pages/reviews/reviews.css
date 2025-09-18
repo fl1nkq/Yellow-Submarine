@@ -236,7 +236,7 @@ label{
     width: 1000rem;
     height: 100%;
     z-index: -1;
-    position: absolute;
+    position: fixed;
     top: 0;
     opacity: 0;
     transition: 0.5s;
