@@ -1,3 +1,13 @@
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
 .our_work_h1{
     font-size: 45px;
     line-height: 27px;
@@ -86,13 +96,13 @@
     background-position: center;
     /* background-position-y: -218px; */
     background-size: 100%;
-    background-position-y: -250px;
+    background-position-y: -130px;
     transition: 0.4s;
 }
 
 .brushes1:hover{
     background-size: 150%;
-    background-position: 50% -500px;
+    background-position: 50% -320px;
     
 }
 
@@ -136,6 +146,7 @@
     font-weight: 700;
     font-family: "Open Sans";
     transition: 0.4s;
+    font-family: "Montserrat", sans-serif;
 }
 
 .brushes:hover p{
