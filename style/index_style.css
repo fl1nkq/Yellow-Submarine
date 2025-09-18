@@ -5,6 +5,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     overflow-x: hidden;
+    transition: 0.5s;
 }
 
 
@@ -96,18 +97,21 @@ footer{
 }
 .footer-info{
     display: flex;
-    width: 53%;
+    width: 100%;
     height: 60px;
+    margin: auto;
     margin-top: 50px;
-    margin-right: 470px;
-    margin-left: 470px;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 .info-div{
     display: flex;
-    height: 30px;
-    width: 800px;
+    height: 2rem;
+    width: 9rem;
     color: aliceblue;
+    text-align: center;
+    margin: auto;
 }
 
 .locaciya-klada{
@@ -262,6 +266,7 @@ label{
     cursor: pointer;
     user-select: none;
     font-weight: 500;
+    transition: 0.5s;
 }
 
 .btn_red p{
@@ -278,11 +283,23 @@ label{
     background-color: #F4271E;
 }
 
+.btn_red:hover{
+    background-color: #c72118;
+    transition: 0.5s;
+}
+
 .btn_blue{
     background-color: #337F9E;
 }
 
+.btn_blue:hover{
+    background-color: #255e75;
+    transition: 0.5s;
+}
+
 .moliar{
+    width: 550px;
+    height: 650px;
     display: flex;
     padding-right: 10%;
     width: 600px;
@@ -295,7 +312,6 @@ label{
     box-shadow: 0px 0px 1000px;
     width: 10rem;
     margin: auto;
-    z-index: 2;
     position: relative;
     top: -40px;
     gap: 2px;
@@ -330,10 +346,12 @@ label{
 .whatwedo{
     display: flex;
     justify-content: space-between;
-    width: 80rem;
+    width: 100%;
+    align-items: center;
+    width: 60rem;
     margin: auto;
-    gap: 250px;
-    margin-top: 4rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
 }
 
 .home_card{
@@ -356,22 +374,6 @@ label{
     height: 10rem;
     width: 15rem;
 }
-
-.card_1{
-    width: 25rem;
-    height: 35rem;
-}
-
-.card_2{
-    width: 25rem;
-    height: 35rem;
-}
-
-.card_3{
-    width: 25rem;
-    height: 35rem;
-}
-
 .readmore_btn{
     color: #337F9E;
     font-weight: bold;
@@ -432,10 +434,79 @@ label{
     background-color: #7a7a7a95;
     width: 1000rem;
     height: 100%;
-    z-index: -100;
+    z-index: -1;
     position: absolute;
     top: 0;
     opacity: 0;
     transition: 0.5s;
 }
 /* END */
+
+@media (max-width: 1440px) {
+    body{
+        transition: 0.5s;
+    }
+
+    .your_home_left{
+        width: 100%;
+        margin: 5rem;
+    }
+
+    .p_home{
+        width: 100%;
+    }
+
+    .h1_home{
+        font-size: 2rem;
+    }
+
+    .h2_home{
+        font-size: 2.9rem;
+    }
+
+    .moliar{
+        max-width: 100%;
+        height: 100%;
+        transition: 0.5s;
+        margin: 5rem;
+        margin-left: 0;
+    }
+
+    .btn_red, .btn_blue{
+        max-width: 15rem;
+        width: 100%;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .whatwedo{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        gap: 0;
+        width: 20rem;
+        margin-top: 5rem;
+    }
+
+    .card_1, .card_2, .card_3{
+        height: 25rem;
+    }
+
+    .main_tekst{
+        width: 100%;
+        height: 100%;
+    }
+    .information_bar{
+        margin-right: 0px;
+        margin-left: 15px;
+    }
+
+    .text_nav{
+        width: 12rem;
+        width: 100%;
+    }
+
+    .footer-info{
+
+    }
+}
