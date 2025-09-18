@@ -96,13 +96,13 @@ body{
     background-position: center;
     /* background-position-y: -218px; */
     background-size: 100%;
-    background-position-y: -250px;
+    background-position-y: -130px;
     transition: 0.4s;
 }
 
 .brushes1:hover{
     background-size: 150%;
-    background-position: 50% -500px;
+    background-position: 50% -320px;
     
 }
 
@@ -146,6 +146,7 @@ body{
     font-weight: 700;
     font-family: "Open Sans";
     transition: 0.4s;
+    font-family: "Montserrat", sans-serif;
 }
 
 .brushes:hover p{
