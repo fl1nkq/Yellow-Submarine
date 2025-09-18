@@ -6,7 +6,6 @@ brg_menu.addEventListener("click", function(){
     brg_menu_windows.style.right = "0px";
     gray.style.opacity = "1";
     gray.style.zIndex = "1000";
-    
 });
 
 gray.addEventListener("click", function(){
