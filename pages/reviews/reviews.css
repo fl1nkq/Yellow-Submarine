@@ -18,11 +18,6 @@ body{
     justify-content: space-between;
 }
 
-#a1{
-    text-decoration: none;
-    color: #000000;
-}
-
 .navigate_bar h1{
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -270,6 +265,10 @@ label{
     margin: auto;
     margin-top: 80px;
 }
+.strelki{
+    font-size: 30px;
+    margin-top: 80px;
+}
 
 .img-box {
     display: inline;
@@ -312,7 +311,7 @@ label{
     margin-top: 40px;
 }
 
-img {
+.imgobla {
     border-radius: 50%;
     width: 105px;
     height: 105px;
@@ -331,12 +330,6 @@ img {
     color: #ff0000;
 }
 
-p {
-    font-size: 30px;
-    margin-top: 80px;
-}
-
-
 .customer-box2 {
     display: grid;
     grid-template-columns: 480px 472px;
@@ -344,6 +337,7 @@ p {
     height: auto;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .h1text {
@@ -384,4 +378,5 @@ p {
     font-weight: 400;
     font-family: "Open Sans";
     display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
