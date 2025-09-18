@@ -5,6 +5,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     overflow-x: hidden;
+    transition: 0.5s;
 }
 
 /* beg menu window style */
@@ -283,6 +284,13 @@ label{
 .icon-container img{
     margin-left: 12px;
 }
+
+#a1{
+    text-decoration: none;
+    color: #000000;
+}
+
+
 .boss-footer{
     display: flex;
     width: 100%;
