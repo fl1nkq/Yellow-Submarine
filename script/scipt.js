@@ -16,22 +16,6 @@ gray.addEventListener("click", function(){
 
 // asdsadsadsadsada
 
-let baton1 = document.getElementById("baton1");
-let baton2 = document.getElementById("baton2");
-
-let main_home = document.getElementById("main_home")
-let main_home1 = document.getElementById("main_home1")
-
-baton1.addEventListener("click", function(){
-    main_home.style.right = "-2000px";
-    main_home1.style.left = "0px";
-})
-
-baton2.addEventListener("click", function(){
-    main_home.style.right = "0px";
-    main_home1.style.left = "-2000px";
-})
-
 let btn_stroke1 = document.getElementById("btn_stroke1");
 let btn_stroke2 = document.getElementById("btn_stroke2");
 
@@ -69,6 +53,37 @@ baton2.addEventListener("mouseleave", function(){
 
 // dsadadsasdadsadsadsasda
 
-let svg_1 = document.getElementById("svg_1");
-let svg_2 = document.getElementById("svg_2");
-let svg_3 = document.getElementById("svg_3");
+let main_home1 = document.getElementById("main_home1");
+let main_home2 = document.getElementById("main_home2");
+let slide_num = 0;
+
+function slide_1(slide_num){
+    if(slide_num == 1){
+        main_home1.style.opacity = "0";
+        main_home1.style.position = "absolute";
+        main_home1.style.left = "-50rem";
+
+        main_home2.style.opacity = "1";
+        main_home2.style.position = "relative";
+        main_home2.style.left = "0";
+    }
+    else if(slide_num == 2){
+        main_home1.style.opacity = "1";
+        main_home1.style.position = "relative";
+        main_home1.style.left = "0";
+
+        main_home2.style.opacity = "0";
+        main_home2.style.position = "absolute";
+        main_home2.style.left = "-50rem";
+    }
+}
+
+baton1.addEventListener("click", function(){
+    slide_num = slide_num == 1 ? 2 : 1;
+    slide_1(slide_num);
+})
+
+baton2.addEventListener("click", function(){
+    slide_num = slide_num == 1 ? 2 : 1;
+    slide_1(slide_num);
+})
