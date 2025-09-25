@@ -14,10 +14,10 @@ body{
     background-size: 100% 100%;
     /* background-position-y: -100px; */
     width: 100%;
-    height: 858px;
+    height: 100%;
     font-family: "Open Sans", sans-serif;
     color: white;
-    
+    padding-bottom: 50px;
 }
 
 .text_box{
@@ -34,12 +34,16 @@ body{
 .text_box_p{
     line-height: 30px;
     padding-top: 134px;
+    text-align: justify;
+    width: 85%;
+    text-align-last: center;
+    margin: 0 auto;
 }
-
 .read_more{
     display: flex;
     height: 75px;
-    width: 255px;
+    max-width: 18%;
+    min-width: 100px;
     margin: auto;
     margin-top: 128px;
     background-color: #ff0000;
@@ -54,3 +58,16 @@ body{
     transition: 0.3s;
 }
 
+@media (max-width: 840px){
+    .read{
+        word-spacing: 60px;
+    }
+    .information_bar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
