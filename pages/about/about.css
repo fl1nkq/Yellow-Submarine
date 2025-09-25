@@ -25,11 +25,12 @@ body{
 }
 
 .box {
-    width: fit-content;
+    width: 611px;
     height: 96px;
     margin-left: 25%;
     padding-top: 190px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .text {
@@ -72,3 +73,4 @@ body{
     padding-top: 15px;
     padding-left: 10px;
 }
+
