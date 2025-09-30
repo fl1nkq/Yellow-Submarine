@@ -155,10 +155,10 @@
         
         <form>
             <label for="fname">Enter Your Email</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
+            <input type="text" id="fname" name="fname" value="" onkeydown="btn_block(event)"><br>
         </form>
 
-        <div class="subscribe-button">SUBSCRIBE</div>
+        <div class="subscribe-button" onclick="sub()">SUBSCRIBE</div>
         <div class="follow-button">FOLLOW US</div>
         <div class="icon-container">
             <img src="img/footer/Layer 8.png">
@@ -172,9 +172,21 @@
         </div>
     </footer>
 
-    <a href="#nav" class="upbtn">
+    <div>
+        <div id="true_r">
+            <p>You subscribed!!! THX</p>
+            <div class="true_r_div" onclick="close_wind()">OK</div>
+        </div>
+
+        <div id="false_r">
+            <p>NO @ IN YOUR TEXTBAR (((</p>
+            <div class="false_r_div" onclick="close_wind()">OK</div>
+        </div>
+    </div>
+
+    <div class="upbtn" id="scrl_up_btn">
         <img src="img/up-arrow-svgrepo-com.png" class="upbtn_img">
-    </a>
+    </div>
     <script src="script/scipt.js"></script>
 </body>
 </html>

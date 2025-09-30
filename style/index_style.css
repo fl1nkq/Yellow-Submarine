@@ -415,7 +415,12 @@ body{
     }
     
     .upbtn{
-        bottom: 1rem;
+        bottom: 0.7rem;
+        width: 2rem;
+        height: 2rem;
     }
 
+    .boss-footer{
+        text-align: center;
+    }
 }

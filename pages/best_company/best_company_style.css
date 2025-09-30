@@ -138,4 +138,14 @@ body {
     .brg_menu_window{
         width: 16rem;
     }
+
+    .upbtn{
+        bottom: 0.7rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .boss-footer{
+        text-align: center;
+    }
 }

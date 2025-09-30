@@ -58,18 +58,18 @@
         </div>
     </div>
 
-        <footer>
+    <footer>
         <div class="footer-info">
             <div class="info-div">
-                <img src="../../img/footer/Layer 2.png" class="locaciya-klada">
+                <img src="img/footer/Layer 2.png" class="locaciya-klada">
                 <p>adress</p>
             </div>
             <div class="info-div">
-                <img src="../../img/footer/Layer 4.png" class="mobilka-zvonilka">
+                <img src="img/footer/Layer 4.png" class="mobilka-zvonilka">
                 <p>+01 123456789</p>
             </div>
             <div class="info-div">
-                <img src="../../img/footer/Layer 3.png" class="konvert-s-shekeliami">
+                <img src="img/footer/Layer 3.png" class="konvert-s-shekeliami">
                 <p>demo@gmail.com</p>
             </div>
         </div>
@@ -78,25 +78,37 @@
         
         <form>
             <label for="fname">Enter Your Email</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
+            <input type="text" id="fname" name="fname" value="" onkeydown="btn_block(event)"><br>
         </form>
 
-        <div class="subscribe-button">SUBSCRIBE</div>
+        <div class="subscribe-button" onclick="sub()">SUBSCRIBE</div>
         <div class="follow-button">FOLLOW US</div>
         <div class="icon-container">
-            <img src="../../img/footer/Layer 8.png">
-            <img src="../../img/footer/Layer 7.png">
-            <img src="../../img/footer/Layer 6.png">
-            <img src="../../img/footer/Layer 5.png">
+            <img src="img/footer/Layer 8.png">
+            <img src="img/footer/Layer 7.png">
+            <img src="img/footer/Layer 6.png">
+            <img src="img/footer/Layer 5.png">
         </div>
         
         <div class="boss-footer">
             Copyright 2020 All Right Reserved By Free html Templates
         </div>
     </footer>
-            <a href="#a1" class="upbtn">
+
+    <div>
+        <div id="true_r">
+            <p>You subscribed!!! THX</p>
+            <div class="true_r_div" onclick="close_wind()">OK</div>
+        </div>
+
+        <div id="false_r">
+            <p>NO @ IN YOUR TEXTBAR (((</p>
+            <div class="false_r_div" onclick="close_wind()">OK</div>
+        </div>
+    </div>
+    <div class="upbtn" id="scrl_up_btn">
         <img src="../../img/up-arrow-svgrepo-com.png" class="upbtn_img">
-    </a>
+    </div>
     <script src="../../script/scipt.js"></script>
     <script src="js/script.js"></script>
 </body>
