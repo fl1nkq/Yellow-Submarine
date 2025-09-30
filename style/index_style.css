@@ -305,21 +305,6 @@ body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         transition: 0.5s;
     }
-
-    .your_home_left{
-        margin: 0;
-        margin-left: 2rem;
-    }
-    
-    .moliar{
-        padding-right: 2rem;
-        width: 100%;
-    }
-
-    .wght111{
-        font-size: 2.4rem;
-        transition: 0.5s;
-    }
 }
 
 @media (max-width: 768px) {
