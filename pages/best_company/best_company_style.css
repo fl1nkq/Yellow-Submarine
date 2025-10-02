@@ -148,4 +148,53 @@ body {
     .boss-footer{
         text-align: center;
     }
+
+            .upbtn{
+        bottom: 0.7rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .boss-footer{
+        text-align: center;
+    }
+
+    #fname{
+        width: 20rem;
+        margin: 0;
+        margin: auto;
+    }
+
+    .footer-info{
+        display: block;
+    }
+
+    form{
+        width: 100%;
+        text-align: center;
+    }
+
+    .fname{
+        margin: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .info-div{
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    .footer-info{
+        margin-bottom: 12rem;
+    }
+
+    footer{
+        height: 100%;
+        width: 100%;
+    }
+
+    .boss-footer p{
+        width: 20rem;
+    }
 }
