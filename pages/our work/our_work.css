@@ -6,6 +6,7 @@ body{
     font-weight: 400;
     overflow-x: hidden;
     transition: 0.5s;
+    overflow-x: hidden;
 }
 
 .our_work_h1{
@@ -26,11 +27,17 @@ body{
     margin-top: 175px;
 }
 
-.button_box{
+.element_box{
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
     /* gap: 20px; */    
+}
+
+.button_box{
+    display: flex;
+    flex-direction: row;
+    /* height: 107px; */
 }
 
 .button{
@@ -154,56 +161,38 @@ body{
     transition: 0.4s;
 }
 
-    /* 
+@media (max-width: 1439px) {
+
+    .our_work_box{
+        height: 1851px;
+    }
+
+    .our_work_h1{
+        margin-left: 0;
+        text-align: center;
+    }
     
-    .upbtn{
-        bottom: 0.7rem;
-        width: 2rem;
-        height: 2rem;
+    .element_box{
+        flex-direction: column-reverse;
+
+    }
+    
+    .button_box{
+        /* margin: auto; */
+        visibility: hidden;
     }
 
-    .boss-footer{
-        text-align: center;
+    .button{
+        margin-top: 70px;
     }
 
-    #fname{
-        width: 20rem;
-        margin: 0;
+    .brushes{
         margin: auto;
+        margin-top: 30px;
     }
+}
 
-    .footer-info{
-        display: block;
-    }
+@media (max-width: 1024px) {
 
-    form{
-        width: 100%;
-        text-align: center;
-    }
 
-    .fname{
-        margin: 0;
-        margin: auto;
-        text-align: center;
-    }
-
-    .info-div{
-        display: block;
-        margin-bottom: 3rem;
-    }
-
-    .footer-info{
-        margin-bottom: 12rem;
-    }
-
-    footer{
-        height: 100%;
-        width: 100%;
-    }
-
-    .boss-footer p{
-        width: 20rem;
-    }
-        
-    this code paste to  media @768 px  
-    */
+}
