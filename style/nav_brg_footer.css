@@ -319,6 +319,7 @@ label{
     border: solid black 1.5px;
     transition: 0.5s;
     border-radius: 15px;
+    transform-origin: center center;
 }
 
 .true_r_div:hover, .false_r_div:hover{
@@ -326,4 +327,4 @@ label{
     color: white;
     transition: 0.5s;
 }
-/* up btn end */
+/* up btn end *
