@@ -286,8 +286,7 @@ label{
 #true_r, #false_r{
     display: flexbox;
     position: fixed;
-    background-color: #337af5;
-    border: solid black;
+    background-color: #ffffff;
     width: 20rem;
     height: 5rem;
     z-index: -1;
@@ -298,12 +297,14 @@ label{
     text-align: center;
     opacity: 0;
     transition: 0.5s;
+    box-shadow: 1px 1px 100px;
+    border-radius: 15px;
 }
 
 #true_r p, #false_r p{
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
 }
 
 .true_r_div, .false_r_div{
@@ -317,6 +318,7 @@ label{
     cursor: pointer;
     border: solid black 1.5px;
     transition: 0.5s;
+    border-radius: 15px;
 }
 
 .true_r_div:hover, .false_r_div:hover{
