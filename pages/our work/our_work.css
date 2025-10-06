@@ -156,7 +156,7 @@ body{
 }
 
 .brushes:hover p{
-    font-size: 40px;
+    font-size: 38px;
     color: #fb5a4b;
     transition: 0.4s;
 }

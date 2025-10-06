@@ -1,17 +1,30 @@
 let brg_menu = document.getElementById("brg_menu");
 let brg_menu_windows = document.getElementById("lolkek");
 let gray = document.getElementById("earlgray");
+let popa = document.getElementsByClassName("popa");
 
 brg_menu.addEventListener("click", function(){
     brg_menu_windows.style.right = "0px";
     gray.style.opacity = "1";
     gray.style.zIndex = "1000";
+
+    for(let i = 0; i < popa.length; i++){
+        setTimeout(() => {
+            popa[i].style.right = "0rem";
+            popa[i].style.opacity = "1";
+        }, i * 100);
+    }
 });
 
 gray.addEventListener("click", function(){
     gray.style.opacity = "0";
     brg_menu_windows.style.right = "-500px";
     gray.style.zIndex = "-1000";
+
+    for(let i = 0; i < popa.length; i++){
+            popa[i].style.right = "-20rem";
+            popa[i].style.opacity = "0";
+    }
 })
 
 // asdsadsadsadsada
