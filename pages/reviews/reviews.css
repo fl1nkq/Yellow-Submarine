@@ -185,8 +185,13 @@ body{
     margin-right: 50rem;
 }
 
-    /* 
-    
+@media (max-width: 1024px){
+    .flex_arrow{
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px){
     .upbtn{
         bottom: 0.7rem;
         width: 2rem;
@@ -235,5 +240,4 @@ body{
     .boss-footer p{
         width: 20rem;
     }
-    this code paste to  media @768 px  
-    */
+}

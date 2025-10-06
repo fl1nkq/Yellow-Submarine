@@ -248,6 +248,12 @@ label{
     opacity: 0;
     transition: 0.5s;
 }
+
+.popa{
+    position: relative;
+    right: -20rem;
+    opacity: 1;
+}
 /* END */
 
 
