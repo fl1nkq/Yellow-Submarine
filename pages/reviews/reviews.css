@@ -175,7 +175,7 @@ body{
             "h1div"
             "button"
             "description";
-        grid-template-columns: 1fr auto;
+        grid-template-columns: 1fr;
         align-items: center;
         gap: 1rem;
         margin: auto;
@@ -187,7 +187,7 @@ body{
 
     .button{
         margin: auto;
-        width: 100%;
+        width: 80%;
     }
 
     .flex_arrow{
