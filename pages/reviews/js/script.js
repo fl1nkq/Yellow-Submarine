@@ -14,7 +14,7 @@ for(let card of cards){
 cards[0].style.opacity = "1";
 cards[0].style.position = "relative";
 cards[0].style.zIndex = "0";
-cards[0].style.width = "100%";
+cards[0].style.width = "80%";
 
 
 strelki[0].addEventListener("click", function(){
@@ -28,7 +28,7 @@ strelki[0].addEventListener("click", function(){
     cards[i].style.position = "relative";
     cards[i].style.opacity = "1";
     cards[i].style.zIndex = "0";
-    cards[i].style.width = "100%";
+    cards[i].style.width = "80%";
 })
 
 strelki[1].addEventListener("click", function(){
@@ -42,7 +42,7 @@ strelki[1].addEventListener("click", function(){
     cards[i].style.position = "relative";
     cards[i].style.opacity = "1";
     cards[i].style.zIndex = "0";
-    cards[i].style.width = "100%";
+    cards[i].style.width = "80%";
 })
 
 
