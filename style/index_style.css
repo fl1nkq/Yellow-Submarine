@@ -1,4 +1,4 @@
-body{
+body {
     display: block;
     margin: 0;
     padding: 0;
@@ -9,7 +9,8 @@ body{
 }
 
 /* page */
-.main_your_home1, .main_your_home2{
+.main_your_home1,
+.main_your_home2 {
     display: flex;
     background-color: #E4E5E7;
     width: 100%;
@@ -19,14 +20,14 @@ body{
     transition: 0.5s;
 }
 
-.main_your_home1{
+.main_your_home1 {
     opacity: 1;
     transition: 0.5s;
     position: relative;
     left: 0;
 }
 
-.main_your_home2{
+.main_your_home2 {
     opacity: 0;
     transition: 0.5s;
     background-color: #d5e2fc;
@@ -34,7 +35,7 @@ body{
     left: -50rem;
 }
 
-.sec{
+.sec {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,22 +43,22 @@ body{
     margin: auto;
 }
 
-.flex{
+.flex {
     display: flex;
     background-color: #E4E5E7;
 }
 
-.your_home_right{
+.your_home_right {
     display: flex;
 }
 
-.your_home_left{
+.your_home_left {
     display: block;
     font-size: 1.3rem;
     width: 50rem;
 }
 
-.p_home{
+.p_home {
     margin-top: 1rem;
     font-size: 1rem;
     width: 39rem;
@@ -65,25 +66,26 @@ body{
     font-weight: 500;
 }
 
-.h1_home{
+.h1_home {
     font-size: 3.6rem;
     margin: 0;
     color: #292929;
 }
 
-.h2_home{
+.h2_home {
     font-size: 5.55rem;
     margin-top: 0;
     color: #345578;
     margin-bottom: 0;
 }
 
-.btn_red_blue{
+.btn_red_blue {
     display: flex;
     gap: 1rem;
 }
 
-.btn_red, .btn_blue{
+.btn_red,
+.btn_blue {
     display: flex;
     width: 15rem;
     height: 4rem;
@@ -95,35 +97,35 @@ body{
     z-index: 5;
 }
 
-.btn_red p{
+.btn_red p {
     margin: auto;
     color: white;
 }
 
-.btn_blue p{
+.btn_blue p {
     margin: auto;
     color: white;
 }
 
-.btn_red{
+.btn_red {
     background-color: #F4271E;
 }
 
-.btn_red:hover{
+.btn_red:hover {
     background-color: #c72118;
     transition: 0.5s;
 }
 
-.btn_blue{
+.btn_blue {
     background-color: #337F9E;
 }
 
-.btn_blue:hover{
+.btn_blue:hover {
     background-color: #255e75;
     transition: 0.5s;
 }
 
-.moliar{
+.moliar {
     width: 550px;
     height: 650px;
     display: flex;
@@ -133,7 +135,7 @@ body{
 }
 
 
-.btns_tuda_siuda{
+.btns_tuda_siuda {
     display: flex;
     box-shadow: 0px 0px 1000px;
     width: 10rem;
@@ -143,7 +145,8 @@ body{
     gap: 2px;
 }
 
-.red_btn_str, .blue_btn_str{
+.red_btn_str,
+.blue_btn_str {
     display: flex;
     width: 5rem;
     height: 5rem;
@@ -154,24 +157,24 @@ body{
 
 /* what we do */
 
-.article{
+.article {
     display: flex;
     text-align: center;
     width: 100%;
 }
 
-.wght111{
+.wght111 {
     display: flex;
     text-align: center;
     font-size: 3rem;
     transition: 0.5s;
 }
 
-.whatwe{
+.whatwe {
     margin: auto;
 }
 
-.whatwedo{
+.whatwedo {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -182,60 +185,61 @@ body{
     margin-top: 5rem;
 }
 
-.home_card{
+.home_card {
     margin: 0;
 }
 
 
-.home_asd{
+.home_asd {
     font-size: 2rem;
     color: #337F9E;
     font-weight: bold;
     width: 100%;
 }
 
-.main_tekst{
+.main_tekst {
     font-size: 1.1rem;
     height: 10rem;
     width: 15rem;
 }
-.readmore_btn{
+
+.readmore_btn {
     color: #337F9E;
     font-weight: bold;
     cursor: pointer;
 }
 
-.hotel{
+.hotel {
     height: 67px;
 }
 
-.dsa{
+.dsa {
     color: black;
 }
 
 @media (max-width: 1440px) {
-    body{
+    body {
         transition: 0.5s;
     }
 
-    .your_home_left{
+    .your_home_left {
         width: 100%;
         margin: 5rem;
     }
 
-    .p_home{
+    .p_home {
         width: 100%;
     }
 
-    .h1_home{
+    .h1_home {
         font-size: 2rem;
     }
 
-    .h2_home{
+    .h2_home {
         font-size: 2.9rem;
     }
 
-    .moliar{
+    .moliar {
         max-width: 100%;
         height: 100%;
         transition: 0.5s;
@@ -243,14 +247,15 @@ body{
         margin-left: 0;
     }
 
-    .btn_red, .btn_blue{
+    .btn_red,
+    .btn_blue {
         max-width: 15rem;
         width: 100%;
         height: 3rem;
         font-size: 1rem;
     }
 
-    .whatwedo{
+    .whatwedo {
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -259,25 +264,28 @@ body{
         margin-top: 5rem;
     }
 
-    .card_1, .card_2, .card_3{
+    .card_1,
+    .card_2,
+    .card_3 {
         height: 25rem;
     }
 
-    .main_tekst{
+    .main_tekst {
         width: 100%;
         height: 100%;
     }
-    .information_bar{
+
+    .information_bar {
         margin-right: 0px;
         margin-left: 15px;
     }
 
-    .text_nav{
+    .text_nav {
         width: 12rem;
         width: 100%;
     }
 
-    .information_bar{
+    .information_bar {
         display: flex;
         justify-content: space-around;
         width: 100%;
@@ -289,14 +297,14 @@ body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-        .wght111{
+    .wght111 {
         font-size: 2.8rem;
         transition: 0.5s;
     }
 }
 
 @media (max-width: 1024px) {
-    .information_bar{
+    .information_bar {
         display: flex;
         justify-content: space-around;
         width: 100%;
@@ -306,13 +314,19 @@ body{
         transition: 0.5s;
     }
 
-    .moliar{
+    .moliar {
         padding: 0;
     }
 }
 
 @media (max-width: 768px) {
-    .information_bar{
+    .info-div {
+        display: flex;
+        margin-bottom: 3rem;
+        width: max-content;
+    }
+
+    .information_bar {
         display: block;
         justify-content: space-around;
         width: 100%;
@@ -323,7 +337,7 @@ body{
         margin-bottom: 1.5rem;
     }
 
-    .navigate_bar{
+    .navigate_bar {
         display: flex;
         width: 100%;
         height: 100%;
@@ -332,46 +346,47 @@ body{
         align-items: center;
     }
 
-    .navigate_bar h1{
+    .navigate_bar h1 {
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         margin-left: 1rem;
     }
 
-    .burger_menu{
+    .burger_menu {
         margin: 0;
         margin-right: 1rem;
     }
 
-    .brg_menu_window{
+    .brg_menu_window {
         width: 16rem;
     }
 
-    .btn_red_blue{
+    .btn_red_blue {
         display: block;
     }
 
-    .btn_blue{
+    .btn_blue {
         margin-top: 1rem;
     }
 
-    .moliar{
+    .moliar {
         margin-right: 2rem;
         margin-left: 1rem;
     }
-    
-    .your_home_left{
+
+    .your_home_left {
         margin-right: 0;
         margin-left: 2rem;
     }
 
-    .wght111{
+    .wght111 {
         font-size: 1.88rem;
         transition: 0.5s;
     }
 
-    .main_your_home1, .main_your_home2{
+    .main_your_home1,
+    .main_your_home2 {
         background-image: url(../img/section/paint_home/moliar.png);
         transition: 0.5s;
         background-repeat: no-repeat;
@@ -380,11 +395,11 @@ body{
         background-color: #E4E5E7;
     }
 
-    .moliar{
+    .moliar {
         display: none;
     }
 
-    .your_home_left{
+    .your_home_left {
         align-items: center;
         margin: auto;
         text-align: center;
@@ -392,67 +407,64 @@ body{
         min-width: 20rem;
     }
 
-    .btn_red_blue{
+    .btn_red_blue {
         margin: auto;
         align-items: center;
         width: 100%;
     }
 
-    .btn_red, .btn_blue{
+    .btn_red,
+    .btn_blue {
         margin: auto;
         margin-top: 1rem;
     }
-    
-    .upbtn{
+
+    .upbtn {
         bottom: 0.7rem;
         width: 2rem;
         height: 2rem;
     }
 
-    .boss-footer{
+    .boss-footer {
         text-align: center;
     }
 
-    #fname{
+    #fname {
         width: 20rem;
         margin: 0;
         margin: auto;
     }
 
-    .footer-info{
+    .footer-info {
         display: block;
     }
 
-    form{
+    form {
         width: 100%;
         text-align: center;
     }
 
-    .fname{
+    .fname {
         margin: 0;
         margin: auto;
         text-align: center;
     }
 
-    .info-div{
-        display: block;
-        margin-bottom: 3rem;
-    }
 
-    .footer-info{
+    .footer-info {
         margin-bottom: 12rem;
     }
 
-    footer{
+    footer {
         height: 100%;
         width: 100%;
     }
 
-    .boss-footer p{
+    .boss-footer p {
         width: 20rem;
     }
 
-    .p_home{
+    .p_home {
         width: 15rem;
         margin: 0;
         margin: auto;

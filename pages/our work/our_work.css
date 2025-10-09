@@ -1,4 +1,4 @@
-body{
+body {
     display: block;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
 }
 
-.our_work_h1{
+.our_work_h1 {
     font-size: 45px;
     line-height: 27px;
     text-transform: uppercase;
@@ -19,7 +19,7 @@ body{
     margin-left: 374px;
 }
 
-.our_work_box{
+.our_work_box {
     width: 100%;
     height: 949px;
     background-color: #fefefd;
@@ -27,34 +27,34 @@ body{
     margin-top: 175px;
 }
 
-.element_box{
+.element_box {
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
-    /* gap: 20px; */    
+    /* gap: 20px; */
 }
 
-.button_box{
+.button_box {
     display: flex;
     flex-direction: row;
     /* height: 107px; */
 }
 
-.button{
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.4s;
 }
 
-.button:hover{
+.button:hover {
     background-color: #1780a0;
     cursor: pointer;
     color: white;
     transition: 0.4s;
 }
 
-.button_left{
+.button_left {
     width: 107px;
     height: 98px;
     background-color: white;
@@ -62,10 +62,10 @@ body{
     margin-left: 84px;
     margin-top: 201px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2),
-             -5px 5px 15px rgba(0, 0, 0, 0.2);
+        -5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.button_right{
+.button_right {
     width: 107px;
     height: 98px;
     background-color: white;
@@ -74,19 +74,19 @@ body{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.fa-solid{
+.fa-solid {
     transform: scale(2);
     transition: 0.4s;
 }
 
-.button:hover i{
+.button:hover i {
     transform: scale(4);
     transition: 0.4s;
 }
 
 
 
-.brushes{
+.brushes {
     width: 656px;
     height: 505px;
     background-color: #1780a0;
@@ -97,7 +97,7 @@ body{
 }
 
 
-.brushes1{
+.brushes1 {
     background-image: url(img/multicolorbrushes.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,13 +108,13 @@ body{
     transition: 0.4s;
 }
 
-.brushes1:hover{
+.brushes1:hover {
     background-size: 150%;
     background-position: 50% -300px;
-    
+
 }
 
-.brushes2{
+.brushes2 {
     background-image: url(img/brushes.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ body{
     transition: 0.4s;
 }
 
-.brushes3{
+.brushes3 {
     background-image: url(img/whitebrush.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +133,8 @@ body{
 }
 
 
-.brushes2:hover , .brushes3:hover{
+.brushes2:hover,
+.brushes3:hover {
     cursor: pointer;
     font-size: 40px;
     color: #fb5a4b;
@@ -141,7 +142,7 @@ body{
     background-size: 190%;
 }
 
-.brushes p{
+.brushes p {
     display: flex;
     align-items: center;
     margin: auto;
@@ -155,7 +156,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-.brushes:hover p{
+.brushes:hover p {
     font-size: 38px;
     color: #fb5a4b;
     transition: 0.4s;
@@ -163,105 +164,103 @@ body{
 
 @media (max-width: 1439px) {
 
-    .our_work_box{
+    .our_work_box {
         height: 1851px;
     }
 
-    .our_work_h1{
+    .our_work_h1 {
         margin-left: 0;
         text-align: center;
     }
-    
-    .element_box{
+
+    .element_box {
         flex-direction: column-reverse;
 
     }
-    
-    .button_box{
+
+    .button_box {
         /* margin: auto; */
         visibility: hidden;
     }
 
-    .button{
+    .button {
         margin-top: 70px;
     }
 
-    .brushes{
+    .brushes {
         margin: auto;
         margin-top: 30px;
     }
 }
 
-@media (max-width: 1024px) {
-
-
-}
+@media (max-width: 1024px) {}
 
 @media (max-width: 768px) {
 
-    .brushes{
-    width: 556px;
-    height: 405px;
-    
+    .info-div {
+        display: flex;
+        margin-bottom: 3rem;
+        width: max-content;
+    }
+
+    .brushes {
+        width: 556px;
+        height: 405px;
+
     }
 
 
-    .upbtn{
+    .upbtn {
         bottom: 0.7rem;
         width: 2rem;
         height: 2rem;
     }
 
-    .boss-footer{
+    .boss-footer {
         text-align: center;
     }
 
-    #fname{
+    #fname {
         width: 20rem;
         margin: 0;
         margin: auto;
     }
 
-    .footer-info{
+    .footer-info {
         display: block;
     }
 
-    form{
+    form {
         width: 100%;
         text-align: center;
     }
 
-    .fname{
+    .fname {
         margin: 0;
         margin: auto;
         text-align: center;
     }
 
-    .info-div{
-        display: block;
-        margin-bottom: 3rem;
-    }
-
-    .footer-info{
+    .footer-info {
         margin-bottom: 12rem;
     }
 
-    footer{
+    footer {
         height: 100%;
         width: 100%;
     }
 
-    .boss-footer p{
+    .boss-footer p {
         width: 20rem;
     }
 
-    .our_work_box{
+    .our_work_box {
         height: 1551px;
     }
 
     /* header */
 
-     .information_bar{
+    .information_bar {
         display: block;
         justify-content: space-around;
         width: 100%;
@@ -272,7 +271,7 @@ body{
         margin-bottom: 1.5rem;
     }
 
-    .navigate_bar{
+    .navigate_bar {
         display: flex;
         width: 100%;
         height: 100%;
@@ -281,41 +280,42 @@ body{
         align-items: center;
     }
 
-    .navigate_bar h1{
+    .navigate_bar h1 {
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         margin-left: 1rem;
     }
 
-    .burger_menu{
+    .burger_menu {
         margin: 0;
         margin-right: 1rem;
     }
 
-    .brg_menu_window{
+    .brg_menu_window {
         width: 16rem;
     }
 
 }
 
 @media (max-width: 610px) {
-    .brushes{
-    width: 356px;
-    height: 205px;
+    .brushes {
+        width: 356px;
+        height: 205px;
     }
 
-    .our_work_box{
+    .our_work_box {
         height: 951px;
     }
 }
-                   
+
 @media (max-width: 380px) {
-    .brushes{
-    width: 256px;
-    height: 205px;
+    .brushes {
+        width: 256px;
+        height: 205px;
     }
-    .our_work_box{
+
+    .our_work_box {
         height: 851px;
     }
 }

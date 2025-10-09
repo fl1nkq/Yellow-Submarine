@@ -245,7 +245,8 @@ body{
     }
 
     .footer-info{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     form{
@@ -260,8 +261,9 @@ body{
     }
 
     .info-div{
-        display: block;
+        display: flex;
         margin-bottom: 3rem;
+        width: max-content;
     }
 
     .footer-info{
