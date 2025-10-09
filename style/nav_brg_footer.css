@@ -333,4 +333,8 @@ label{
     color: white;
     transition: 0.5s;
 }
-/* up btn end *
+/* /* up btn end * */
+
+.information_bar3{
+    display: none;
+}
