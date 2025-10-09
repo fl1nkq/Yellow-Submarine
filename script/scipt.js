@@ -2,6 +2,7 @@ let brg_menu = document.getElementById("brg_menu");
 let brg_menu_windows = document.getElementById("lolkek");
 let gray = document.getElementById("earlgray");
 let popa = document.getElementsByClassName("popa");
+let text_nav = document.getElementsByClassName("text_nav");
 
 brg_menu.addEventListener("click", function(){
     brg_menu_windows.style.right = "0px";
