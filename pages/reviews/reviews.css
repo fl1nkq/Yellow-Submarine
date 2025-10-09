@@ -37,8 +37,7 @@ body{
     padding: 1rem;
     position: relative;
     opacity: 1;
-    left: auto;
-    right: auto;
+    margin: auto;
 }
 
 .img-box{
@@ -319,5 +318,32 @@ body{
     .brg_menu_window{
         width: 16rem;
     }
+    .flex_arrow {
+        display: grid;
+        grid-template-areas:
+            "customer-box customer-box"
+            "a11 a12";
+        grid-template-columns: auto auto;
+        justify-items: center;
+        gap: 1rem;
+        margin: auto;
+    }
 
+    .customer-box {
+        grid-area: customer-box;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .a11 {
+        grid-area: a11;
+        justify-self: end;
+        margin: 0;
+    }
+
+    .a12 {
+        grid-area: a12;
+        justify-self: start;
+        margin: 0;
+    }
 }
